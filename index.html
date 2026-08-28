@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'"
+    >
+    <meta name="referrer" content="no-referrer">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <title>POSBON</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="invite.js"></script>
+  </head>
+  <body>
+    <main class="invite-card" aria-labelledby="invite-title">
+      <div class="wordmark" aria-label="POSBON">POSBON</div>
+      <h1 id="invite-title">Ссылка недействительна</h1>
+      <p id="invite-message" class="message" aria-live="polite">
+        Попросите администратора создать новое приглашение.
+      </p>
+      <a id="invite-cta" class="cta" hidden>Открыть POSBON</a>
+      <p id="invite-note" class="note" hidden>
+        Это персональное приглашение. Не пересылайте его другим людям.
+      </p>
+    </main>
+  </body>
+</html>

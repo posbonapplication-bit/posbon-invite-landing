@@ -1,0 +1,87 @@
+:root {
+  color-scheme: dark;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0e1117;
+  color: #f4f6fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0e1117;
+}
+
+.invite-card {
+  width: 100%;
+  max-width: 520px;
+  padding: 34px;
+  text-align: center;
+  background: #232b39;
+  border: 1px solid #38414f;
+  border-radius: 22px;
+}
+
+.wordmark {
+  margin-bottom: 24px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+h1 {
+  margin: 0 0 12px;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+.message {
+  margin: 0;
+  color: #9aa4b5;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 16px 26px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background: #b8621f;
+  border-radius: 12px;
+}
+
+.cta:focus-visible {
+  outline: 3px solid #f4f6fa;
+  outline-offset: 4px;
+}
+
+.note {
+  margin: 24px 0 0;
+  color: #7f8999;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+[hidden] {
+  display: none;
+}
+
+@media (max-width: 420px) {
+  .invite-card {
+    padding: 30px 22px;
+  }
+}
